@@ -1,0 +1,150 @@
+ .header {
+    height: 100px;
+    background-color: white;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 225, 225) ;
+
+ }
+
+ .left-side {
+    display: flex ;
+    align-items: center;
+ }
+
+ .hamburger-menu {
+    height: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+ .youtube-logo {
+    height: 21px;
+    cursor: pointer;
+ }
+
+ .middle-side {
+    flex: 1;
+    margin-left: 250px;
+    margin-right: 250px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+ }
+
+ .search-bar{
+    flex: 1;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(195, 197, 197);
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 5px 
+    rgba(0, 0, 0, 0.1);
+    width: 100px;
+
+ }
+
+ .search-bar::placeholder {
+    font-family: Roboto, Arial ;
+    font-size: 16px;
+ }
+ .search-button {
+    background-color: rgb(242, 238, 238);
+    height: 39px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(195, 197, 197);
+    border-radius: 3px;
+    margin-left: -2.5px;
+
+ 
+ }
+
+ .voice-search {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 40px;
+    margin-left: 6px;
+ }
+
+ .right-side {
+  display: flex;
+  align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    flex-shrink: 0;
+ }
+
+ .upload-button {
+    border: none;
+    background-color: white;
+    padding-left: 80px;
+ }
+
+ .upload-icon {
+    border: none;
+    height: 25px;
+ }
+
+ .app-button{
+    border: none;
+    background-color: white;
+ }
+
+ .app-icon {
+    height: 25px;
+ }
+
+ .notification-button {
+    border: none;
+    background-color: white;
+    position: relative;
+ }
+
+ .notification-icon {
+    height: 25px;
+ }
+
+ .mychannel-button {
+    border: none;
+    background-color: white;
+ }
+
+ .mychannel-icon {
+    height: 30px;
+ }
+
+ .notification-count {
+   position: absolute;
+   font-size: 10px;
+   font-weight: 500;
+   top: -0.5px;
+   right: 2.5px;
+   background-color: rgb(189, 7, 7);
+   color: white;
+   border-radius: 70px;
+   padding-left: 4px;
+   padding-right: 4px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+
+ }
